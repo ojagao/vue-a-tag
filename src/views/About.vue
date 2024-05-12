@@ -22,7 +22,7 @@ const smoothScroll = () => {
   <div>
     <div class="page page1">
       <div>
-        <p>aタグで同窓遷移させています</p>
+        <p>buttonタグでclickイベントを使用して<br />JSでスクロール制御しています。</p>
         <button @click="smoothScroll">↓ Clickイベントです　</button>
       </div>
     </div>

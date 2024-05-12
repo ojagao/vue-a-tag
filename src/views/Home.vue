@@ -11,7 +11,7 @@ const smoothScroll = () => {
   <div>
     <div class="page page1">
       <div>
-        <p>aタグで同窓遷移させています</p>
+        <p>aタグでページ内遷移させています</p>
         <a @click="smoothScroll" href="#anchor">↓ aタグです　</a>
       </div>
     </div>
